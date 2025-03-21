@@ -84,8 +84,8 @@ while(1)
 {
 star();
 
-cout<< endl <<" WELCOME TO INDIAN RAILWAYS"<<endl;
- cout<<" ENTER 1 TO CHECK AVAILABILITY "<<endl;
+cout<< endl <<" WELCOME TO THE INDIAN RAILWAYS"<<endl;
+ cout<<" ENTER 1 TO CHECK THE AVAILABILITY "<<endl;
  cout<<" ENTER 2 TO BOOK TICKETS"<<endl;
  cout<<" ENTER 3 FOR CANCELLATION"<<endl;
  cout<<" ENTER 4 FOR ADMIN ACCESS"<<endl;
