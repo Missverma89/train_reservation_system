@@ -154,11 +154,11 @@ star();
 cout<<" TRAIN NUMBER "<<tno;
 cout<<" TRAIN NAME"<<name;
 cout<<" STARTING POINT"<<from;
-cout<<" DESTINATION "<<to;
+cout<<" DESTINATION POINT"<<to;
 cout<<" NUMBER OF AC TICKETS AVAILABLE"<<ac;
-cout<<" PRICE OF EACH AC TICKET Rs. "<<fac;
+cout<<" PRICE OF EACH AC TICKET IN Rs. "<<fac;
 cout<<" NUMBER OF SLEEPER TICKETS AVAILABLE "<<sleeper;
-cout<<" PRICE OF EACH SLEEPER CLASSTICKET Rs. "<<fsleeper;
+cout<<" PRICE OF EACH SLEEPER CLASSTICKET IN Rs. "<<fsleeper;
 
 cout<<" NUMBER OF SECOND CLASS TICKETSAVAILABLE "<<sc;
 cout<<" PRICE OF EACH SECOND CLASSTICKET Rs. "<<fsc;
