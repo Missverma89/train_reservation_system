@@ -160,8 +160,8 @@ cout<<" PRICE OF EACH AC TICKET IN Rs. "<<fac;
 cout<<" NUMBER OF SLEEPER TICKETS AVAILABLE "<<sleeper;
 cout<<" PRICE OF EACH SLEEPER CLASSTICKET IN Rs. "<<fsleeper;
 
-cout<<" NUMBER OF SECOND CLASS TICKETSAVAILABLE "<<sc;
-cout<<" PRICE OF EACH SECOND CLASSTICKET Rs. "<<fsc;
+cout<<" NUMBER OF SECOND CLASS TICKETS AVAILABLE "<<sc;
+cout<<" PRICE OF EACH SECOND CLASS TICKET Rs. "<<fsc;
 cout<<" DURATION OF JOURNEY (hrs) "<<time;
 cout<<" TOTAL DISTANCE (km) "<<dist;
 getch();
@@ -171,8 +171,8 @@ void train::acp() // FUNCTION TO ACCEPT TRAIN
 {
 
 star();
-cout<<" ENTER TRAIN NUMBER";cin>>tno;
-cout<<" ENTER TRAIN NAME";gets(name);
+cout<<" ENTER THE TRAIN NUMBER";cin>>tno;
+cout<<" ENTER  THE TRAIN NAME";gets(name);
 cin>>Tname;
 cout<<" ENTER STARTING POINT(From)"<<endl;
 
@@ -185,8 +185,8 @@ cout<<" ENTER NUMBER OF AC TICKETS TO BE MADE AVAILABLE ";
 cin>>ac;
 cout<<" ENTER PRICE OF EACH AC TICKETRs. ";cin>>fac;
 cout<<" ENTER NUMBER OF SLEEPER TICKETS TO BE MADE AVAILABLE";cin>>sleeper;
-cout<<" ENTER PRICE OF EACH SLEEPERTICKET Rs. ";cin>>fsleeper;
-cout<<" ENTER NUMBER OF SECOND CLASSTICKETS TO BE MADE AVAILABLE";cin>>sc;
+cout<<" ENTER PRICE OF EACH SLEEPER TICKET Rs. ";cin>>fsleeper;
+cout<<" ENTER NUMBER OF SECOND CLASS TICKETS TO BE MADE AVAILABLE";cin>>sc;
 
 cout<<" ENTER PRICE OF EACH SECOND CLASS TICKET Rs. ";cin>>fsc;
 cout<<" ENTER DURATION OF JOURNEY (hrs) ";cin>>time;
