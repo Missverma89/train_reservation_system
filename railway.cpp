@@ -420,7 +420,7 @@ z=b.assign(); // CALLING THE FUNCTION TO ASSIGN
 // BOOKING DETAILS
 if(z==0)
 {
-cout<<" SORRY CANNOT BOOK "<<tickets<<" TICKETS";
+cout<<" SORRY, SEAT IN THE TRAI CAN NOT BOOK "<<tickets<<" TICKETS";
 getch();
 break;
 }
