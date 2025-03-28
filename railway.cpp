@@ -183,17 +183,17 @@ cin>>Dto;
 //gets(to);
 cout<<" ENTER NUMBER OF AC TICKETS TO BE MADE AVAILABLE ";
 cin>>ac;
-cout<<" ENTER PRICE OF EACH AC TICKETRs. ";cin>>fac;
+cout<<" ENTER PRICE OF EACH AC TICKET Rs. ";cin>>fac;
 cout<<" ENTER NUMBER OF SLEEPER TICKETS TO BE MADE AVAILABLE";cin>>sleeper;
 cout<<" ENTER PRICE OF EACH SLEEPER TICKET Rs. ";cin>>fsleeper;
 cout<<" ENTER NUMBER OF SECOND CLASS TICKETS TO BE MADE AVAILABLE";cin>>sc;
 
 cout<<" ENTER PRICE OF EACH SECOND CLASS TICKET Rs. ";cin>>fsc;
-cout<<" ENTER DURATION OF JOURNEY (hrs) ";cin>>time;
+cout<<" ENTER DURATION OF  THE JOURNEY (hrs) ";cin>>time;
 cout<<" ENTER TOTAL DISTANCE (km) ";cin>>dist;
 } // END OF FUNCTION
 void train::modify() // FUNCTION TO MODIFY TRAIN
-//RECORD
+//RECORD OF TRAIN
 {
 
 star();
