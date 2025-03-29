@@ -389,7 +389,7 @@ if(flag==1)
 int f1=0;
 
 star();
-cout<<" ENTER THE TRAIN NUMBER OF WHICH YOU WANT TO BOOK TICKETS - ";cin>>no;
+cout<<" ENTER THE TRAIN NUMBER  WHICH YOU WANT TO BOOK TICKETS - ";cin>>no;
 rr.open("train.dat",ios::in|ios::binary);
 rr.seekg(0,ios::beg);
 while(rr.read((char*)&t,sizeof t) )
@@ -402,7 +402,7 @@ cout<<" ENTER THE NUMBER OF TICKETS YOU WANT TO BOOK (MAX. 6) - ";
 cin>>tickets;
 if(tickets>6)
 {
-cout<<" SORRY CANNOT BOOK MORE THAN 6 TICKETS";
+cout<<" SORRY YOU CANNOT BOOK MORE THAN 6 TICKETS";
 getch();
 break;
 }
