@@ -587,7 +587,7 @@ cout<<" TOTAL TICKETS - "<<b.rettic();
 cout<<" TOTAL AMOUNT - "<<b.retamt();
  cout<<" TOTAL AMOUNT - "<<amt;
  cout<<" BOARDING POINT - "<<pfrom;
- cout<<" DESTINATION - "<<pto;
+ cout<<" DESTINATION POINT - "<<pto;
 p.showp(id);
 cout<<" ARE YOU SURE ? (Y/N) - ";
 cin>>ch;
