@@ -684,7 +684,7 @@ do
 star();
 cout<<" ADMIN SECTION";
  cout<<endl<<" ENTER 1 TO CREATE NEW FILE"<<endl;
- cout<<" ENTER 2 TO ENTER NEW RECORD "<<endl;
+ cout<<" ENTER 2 TO ENTER THE NEW RECORD "<<endl;
  cout<<" ENTER 3 TO MODIFY A TRAIN RECORD"<<endl;
  cout<<" ENTER 4 TO DELETE A TRAIN RECORD"<<endl;
  cout<<" ENTER 5 TO DISPLAY ALL THE CURRENT RECORDS"<<endl;
@@ -712,7 +712,7 @@ getch();
 break;
 }
 }while(m>=1&&m<=5);
-} // END OF IF
+} // END OF IF STATEMENT
 else
 {
 
@@ -722,7 +722,7 @@ cout<<" ACCESS DENIED";
 getch();
 }
 } // END OF FUNCTION
-void star() // FUNCTION TO PRINT STARS ON SCREEN
+void star() // FUNCTION TO PRINT STARS ON THE SCREEN
 {
 	int i;
 	for(i=1;i<81;i++)
