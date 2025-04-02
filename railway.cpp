@@ -5,7 +5,7 @@
 #include<stdio.h>
 #include<process.h>
 #include<string.h>
-
+//HEADER FILE
 using namespace std;
 class pn // passenger class name
 {
@@ -26,7 +26,7 @@ void display();
 void acp(); 
 void check(); 
 void update(int); // FUNCTION TO UPDATE NO. OF
-// SEATS AFTER CANCELLATION
+// SEATS AFTER CANCELLATION TICKETS
 int ret() 
 {
 return tno;
@@ -85,7 +85,7 @@ while(1)
 star();
 
 cout<< endl <<" WELCOME TO THE INDIAN RAILWAYS"<<endl;
- cout<<" ENTER 1 TO CHECK THE AVAILABILITY "<<endl;
+ cout<<" ENTER 1 TO CHECK THE AVAILABILITY OF SEATS"<<endl;
  cout<<" ENTER 2 TO BOOK THE TICKETS"<<endl;
  cout<<" ENTER 3 FOR CANCELLATION"<<endl;
  cout<<" ENTER 4 FOR ADMIN THE ACCESS"<<endl;
