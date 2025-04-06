@@ -634,9 +634,9 @@ t.close();
 void passenger::getp()
 {
 star();
-cout<<" ENTER NAME - ";gets(pname);
-cout<<" ENTER AGE - ";cin>>page;
-cout<<" ENTER SEX (M/F) - ";cin>>psex;
+cout<<" ENTER NAME OF A PERSON - ";gets(pname);
+cout<<" ENTER AGE OF A PERSON - ";cin>>page;
+cout<<" ENTER SEX (M/F) OF PERSON - ";cin>>psex;
 } // END OF FUNCTION
 void passenger::showp(int q) // FUNCTION TO SHOW
 // PASSENGER DETAILS
