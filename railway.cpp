@@ -172,7 +172,7 @@ void train::acp() // FUNCTION TO ACCEPT TRAIN
 
 star();
 cout<<" ENTER THE TRAIN NUMBER";cin>>tno;
-cout<<" ENTER  THE TRAIN NAME";gets(name);
+cout<<" ENTER THE TRAIN NAME";gets(name);
 cin>>Tname;
 cout<<" ENTER STARTING POINT(From)"<<endl;
 
@@ -189,7 +189,7 @@ cout<<" ENTER PRICE OF EACH SLEEPER TICKET Rs. ";cin>>fsleeper;
 cout<<" ENTER NUMBER OF SECOND CLASS TICKETS TO BE MADE AVAILABLE";cin>>sc;
 
 cout<<" ENTER PRICE OF EACH SECOND CLASS TICKET Rs. ";cin>>fsc;
-cout<<" ENTER DURATION OF  THE JOURNEY (hrs) ";cin>>time;
+cout<<" ENTER DURATION OF THE JOURNEY (hrs) ";cin>>time;
 cout<<" ENTER TOTAL DISTANCE (km) ";cin>>dist;
 } // END OF FUNCTION
 void train::modify() // FUNCTION TO MODIFY TRAIN
@@ -200,7 +200,7 @@ star();
 fstream rr;
 rr.open("train.dat",ios::in|ios::out|ios::binary);
 int id,f=0,n=0,p;
-cout<<" ENTER TRAIN NUMBER OF TRAIN TO BE MODIFIED - ";
+cout<<" ENTER TRAIN NUMBER OF TRAIN TO BE MODIFIED :- ";
 cin>>id;
 while(rr.read((char*)&t,sizeof t))
 {
@@ -231,7 +231,7 @@ fstream rr;
 rr.open("train.dat",ios::in|ios::binary);
 fstream t1;
 t1.open("temp.dat",ios::out|ios::binary);
-cout<<" ENTER TRAIN NUMBER OF TRAIN TO BE DELETED - ";
+cout<<" ENTER TRAIN NUMBER OF TRAIN TO BE DELETED :- ";
 cin>>id;
 while(rr.read((char*)&t,sizeof t))
 { // 1
